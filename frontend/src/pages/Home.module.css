@@ -1,0 +1,84 @@
+.homePage {
+  padding: 48px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.heroSection {
+  text-align: center;
+  padding: 80px 0;
+}
+.heroTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+.heroActions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.btnSolid {
+  background: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btnOutlineWhite {
+  background: white;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.featuresSection {
+  padding: 60px 0;
+}
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.featureCard {
+  background: white;
+  border: 1px solid #eee;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+}
+.featureIcon {
+  font-size: 2rem;
+  color: #2563eb;
+  margin-bottom: 16px;
+}
+.statsSection {
+  background: #f8fafc;
+  padding: 60px 0;
+}
+.statsGrid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.statItem h4 {
+  font-size: 2.5rem;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+.footer {
+  text-align: center;
+  padding: 24px 0;
+  border-top: 1px solid #eee;
+  margin-top: 60px;
+}
